@@ -35,6 +35,41 @@ nav .onglets a{
 
 }
 
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('images/pexels-pixabay-270366.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1{
+    font-size: 50px;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+header button{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', sans-serif;
+    outline: none;
+}
+
 @media screen and (max-width:680px) {
     nav .onglets{
         margin-left: 0px;
