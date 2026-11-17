@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Vitrine</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <h1>Benjamin Rieucau</h1>
-        <div class="nav-links">
+        <div class="onglets">
             <a href="#home">Home</a>
-            <a href="#project">Projets</a>
+            <a href="#CV">CV</a>
             <a href="#about">À propos</a>
             <a href="#contact">Contact</a>
         </div>
@@ -20,7 +20,76 @@
     <header>
         <h1>Benjamin Rieucau</h1>
         <h4>Bienvenue sur mon site</h4>
-        <button>Voir mes projets</button>
+        <button class="btn">Voir mes projets</button>
     </header>
+
+    <section class="main" id="CV">
+
+        <div class="content">
+            <div class="card">
+                <div class="left">
+                    <h1>Expérience professionnelle</h1>
+                    <p>Voici mon expérience professionnelle</p>
+                </div>
+                <div class="right">
+                    <img src="images/Expérience.jpg" alt="Expérience Image">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="left">
+                    <h1>Formation</h1>
+                    <p>Voici ma formation professionnelle et mes études</p>
+                </div>
+                <div class="right">
+                    <img src="images/Formation.jpg" alt="Formation Image">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+
+        <h1>Mes Loisirs</h1>
+        <div class="services">
+            
+            <div class="service">
+                <h3>Compétences</h3>
+                <p><u>Back-end</u> : PHP, Java (Framework : Symfony, Spring Boot)</p>
+                <p><u>Front-end</u> : HTML, CSS, JavaScript et Typescript (Framework : Jquery, Angular)</p>
+                <p><u>Base de données</u> : MySQL, MongoDB</p>
+            </div>
+
+            <div class="service">
+                <h3>Langues</h3>
+                <p><u>Français</u> : Langue maternelle</p>
+                <p><u>Anglais</u> : Confirmé (B2)</p>
+                <p><u>Allemand</u> : Intermédiaire (A2)</p>
+            </div>
+
+            <div class="service">
+                <h3>Sports</h3>
+                <p>Escrime (8 ans), Basketball (6 ans), Boxe Française (4 ans), Boxe Anglaise (3 ans), Rugby (2 ans)</p>
+                <p> <u>Qualités</u> : L'assiduité, la maîtrise de soi, le respect et le travail d'équipe</p>
+            </div>
+
+            <div class="service">
+                <h3>Musique</h3>
+                <p>7 ans d'expérience à la guitare (Avec professeur particulier puis apprentissage autonome)</p>
+                <p> <u>Qualités</u> : La persévérance, la créativité, la concentration, l'écoute et l'expression</p>
+            </div>
+
+            <div class="service">
+                <h3>Informatique Autres</h3>
+                <p>Microsoft Office (Word, Excel, PowerPoint), Open Office (Writer, Calc, Impress), La suite Adobe (Photoshop, Illustrator, InDesign, AdobeXD)</p>
+                <p> <u>Qualités</u> : La logique, la rigueur, la capacité d'analyse et la résolution de problèmes</p>
+            </div>
+
+        </div>
+
+        <p id="contact">Contact :  | &copy; actualisé en 2026 </p>
+    </footer>
+
 </body>
 </html>
