@@ -12,7 +12,7 @@
         <div class="onglets">
             <a href="#home">Home</a>
             <a href="#CV">CV</a>
-            <a href="#hobby">Mes Loisirs</a>
+            <a href="#hobby">Compétences et Loisirs</a>
             <a href="#contact">Contact</a>
         </div>
     </nav>
@@ -20,13 +20,13 @@
     <header>
         <h1>Développeur Web</h1>
         <h4>Bienvenue sur mon site</h4>
-        <button class="btn">Voir mes projets</button>
+        <!-- <button class="btn">Voir mes projets</button> -->
     </header>
 
     <section class="main" id="CV">
 
         <div class="content">
-            <div class="card">
+            <div class="card" id="openModalDiv">
                 <div class="left">
                     <h1>Expérience professionnelle</h1>
                     <p></p>
@@ -35,6 +35,50 @@
                     <img src="images/Expérience.jpg" alt="Expérience Image">
                 </div>
             </div>
+
+            <dialog id="nativeModal" class="native-modal">
+                <div class="modal-content">
+                    <button id="closeModalBtn" class="close-btn" aria-label="Fermer">&times;</button>
+                    <h2>Expérience professionnelle</h2>
+                    <p><strong>Développeur Front-End - Feelingjack</strong><br>
+                    <strong>Edimbourg, Ecosse, Octobre 2024 - Février 2025</strong> <br>
+                    -Développement d'une application web pour le marathon d'Annecy en React avec Next.Js<br>
+                    -Travail en équipe, Peer Programming et méthode Agile</p>
+
+                    <p><strong>Stage Design Graphique - Studio Les Passeurs</strong><br>
+                    <strong>Lyon 69006, Août 2018</strong> <br>
+                    -Organisation d'un projet Web (site internet en HTML, CSS et Js)</p>
+
+                    <p><strong>Stage Design Graphique - Studio Les Passeurs</strong><br>
+                    <strong>Lyon 69006, Juillet 2018</strong> <br>
+                    -Organisation d'un projet en Design Numérique<br>
+                    -Présentation d'un projet aux clients</p>
+
+                    <p><strong>Vendeur Manager - Bagelstein</strong><br>
+                    <strong>Lyon 69003, Février 2014 - Août 2014</strong> <br> 
+                    -Vente, encaissement, gestion des stocks, management d’équipe<br>
+                    -Réalisation des objectifs, organisation, plannings, relation clients</p>
+
+                    <p><strong>Agent d'entretien qualifié - Centre Hospitalier Fleyriat</strong><br>
+                    <strong>Bourg-en-Bresse 01000, Juillet-Août 2013</strong> <br> 
+                    -Autonomie et respect des protocoles</p>
+
+                    <p><strong>Aide soignant en bloc opératoire - Centre Hospitalier Fleyriat</strong><br>
+                    <strong>Bourg-en-Bresse 01000, Juillet - Août 2012</strong> <br> 
+                    -Assistance aux patients, suivi médical<br>
+                    -Efficacité dans les tâches personnelles et en équipe avec une rigueur du protocole<br>
+                    -Communication avec l'équipe soignante</p>
+
+                    <p><strong></strong><br>
+                    <strong></strong> <br> 
+                    -<br>
+                    -</p>
+
+                    <p><strong>...</strong><br>
+                    <strong></strong> <br> 
+                    </p>
+                </div>
+            </dialog>
 
             <div class="card">
                 <div class="left">
@@ -51,7 +95,7 @@
 
     <footer>
 
-        <h1>Mes Loisirs</h1>
+        <h1>Compétences et Loisirs</h1>
         <div class="services">
             
             <div class="service" id="hobby">
@@ -91,5 +135,6 @@
         <p id="contact">Contact :  | &copy; actualisé en 2026 </p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
